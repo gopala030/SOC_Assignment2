@@ -13,7 +13,7 @@ var names = ["Aaran", "Aaren","Abaan", "Abbas", "Abdallah", "Abdalroof", "Abdiha
   cell3.innerHTML = year; 
     };
 
-function find() {
+
   $("#search").keyup(function () {
     //split the current value of searchInput
     var data = this.value.split(" ");
@@ -47,9 +47,5 @@ function find() {
 }).css({
     "color": "#C0C0C0"
 });
-}
 
-function restore(){
-  document.getElementById("search").value = "";
-  find();
-}
+
