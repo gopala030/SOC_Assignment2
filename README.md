@@ -1,1 +1,0 @@
-# SOC_Assignment2
